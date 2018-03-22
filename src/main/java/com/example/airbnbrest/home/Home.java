@@ -7,8 +7,8 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 @Getter
 @Setter
-@Document(indexName = "listing", type = "homes")
-public class Home extends Listing{
+@Document(indexName = "home", type = "homes")
+public class Home extends Listing {
 
     private String simpleDescription, type, cancellation, typeOfCharge;
     private int price, guests, beds, baths;
